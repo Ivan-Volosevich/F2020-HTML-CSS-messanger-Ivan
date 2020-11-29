@@ -1,0 +1,103 @@
+.head {
+  display: flex;
+  text-transform: capitalize;
+  background-color: #509ee2; }
+  .head .head__search {
+    background-color: #d6dfe5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .head .head__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .head .head__btn {
+    text-transform: capitalize; }
+  .head .head__account {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+
+.messages .messages__tools {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.5px solid #d8e0e6; }
+
+.messages .messages__card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.5px solid #d8e0e6;
+  height: 129px; }
+
+.names {
+  text-transform: capitalize; }
+
+.chat .chat__tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.5px solid #d8e0e6; }
+  .chat .chat__tools .chat__tools_icons {
+    display: flex;
+    justify-content: space-between; }
+
+.chat .chat__chatting {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 26px; }
+  .chat .chat__chatting .chat__text {
+    background-color: #509ee2;
+    border-radius: 5px;
+    margin-left: 20px;
+    max-width: 417px; }
+    .chat .chat__chatting .chat__text p {
+      margin: 20px 25px; }
+  .chat .chat__chatting img {
+    margin-left: 29px; }
+
+.chat .chat__chatting_user {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 26px; }
+  .chat .chat__chatting_user .chat__text {
+    background-color: #f1f5f8;
+    border-radius: 5px;
+    margin-right: 30px;
+    max-width: 417px; }
+    .chat .chat__chatting_user .chat__text p {
+      margin: 20px 25px; }
+
+.online {
+  background-color: #f1f5f8; }
+  .online .online__tools {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid #d8e0e6; }
+
+.wrapper {
+  min-width: 320px;
+  max-width: 1440px; }
+
+.wrap_height_header {
+  height: 100px; }
+
+.wrap_width_search {
+  max-width: 402px;
+  width: 402px;
+  background-color: #f1f5f8; }
+
+.wrap_width_chat {
+  max-width: 637px;
+  width: 637px; }
+
+.wrap_width_user {
+  max-width: 402px;
+  width: 402px; }
+
+.subhead-text {
+  text-transform: uppercase; }
+
+.sections {
+  display: flex; }

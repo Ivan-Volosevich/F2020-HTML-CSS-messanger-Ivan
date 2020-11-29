@@ -1,0 +1,27 @@
+.head {
+    display: flex;
+    text-transform: capitalize;
+    background-color: #509ee2;
+    .head__search {
+        background-color: #d6dfe5;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .head__nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .head__btn {
+        
+        text-transform: capitalize;
+    }
+
+    .head__account {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

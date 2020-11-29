@@ -1,0 +1,32 @@
+.wrapper {
+    min-width: 320px;
+    max-width: 1440px;
+}
+
+.wrap_height_header {
+    height: 100px;
+}
+
+.wrap_width_search {
+    max-width: 402px;
+    width: 402px;
+    background-color: #f1f5f8
+}
+
+.wrap_width_chat {
+    max-width: 637px;
+    width: 637px;
+}
+
+.wrap_width_user {
+    max-width: 402px;
+    width: 402px;
+}
+
+.subhead-text {
+    text-transform: uppercase;
+}
+
+.sections {
+    display: flex;
+}
