@@ -69,12 +69,60 @@
     .chat .chat__chatting_user .chat__text p {
       margin: 20px 25px; }
 
+.chat .chat__input {
+  display: flex; }
+  .chat .chat__input > input {
+    background-color: #d5dfe6;
+    border: none;
+    height: 70px;
+    width: 380px; }
+  .chat .chat__input > button {
+    border: none;
+    border-radius: 5px; }
+  .chat .chat__input .attachment {
+    background-image: url(./../../../Images/Icons/attachment.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #d5dfe6;
+    border-radius: 0px 5px 5px 0px;
+    width: 50px; }
+  .chat .chat__input .send {
+    background-color: #509ee2;
+    width: 120px;
+    height: 70px; }
+
 .online {
   background-color: #f1f5f8; }
   .online .online__tools {
     display: flex;
     align-items: center;
     border: 0.5px solid #d8e0e6; }
+  .online .members .online__member {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    margin: 0 41px; }
+    .online .members .online__member .online__member_info {
+      display: flex;
+      align-items: center;
+      width: 309px; }
+    .online .members .online__member .online__member_img {
+      width: 55px;
+      height: 55px;
+      background-color: #d8e0e7;
+      border-radius: 5px;
+      margin-right: 25px; }
+    .online .members .online__member .online__member_icon-on {
+      width: 11px;
+      height: 11px;
+      background-color: #509ee2;
+      border-radius: 50%; }
+    .online .members .online__member .online__member_icon-off {
+      width: 11px;
+      height: 11px;
+      background-color: #cad5de;
+      border-radius: 50%; }
 
 .wrapper {
   min-width: 320px;
@@ -97,7 +145,8 @@
   width: 402px; }
 
 .subhead-text {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #509ee2; }
 
 .sections {
   display: flex; }

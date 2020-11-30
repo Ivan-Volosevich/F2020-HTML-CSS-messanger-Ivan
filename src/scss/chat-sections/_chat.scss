@@ -40,4 +40,31 @@
             }
         }
     }
+    .chat__input {
+        display: flex;
+        > input {
+            background-color: #d5dfe6;
+            border: none;
+            height: 70px;
+            width: 380px;
+        }
+        > button {
+            border: none;
+            border-radius: 5px;
+        }
+        .attachment {
+            background-image: url(./../../../Images/Icons/attachment.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #d5dfe6;
+            border-radius: 0px 5px 5px 0px;
+            width: 50px;
+        }
+        .send {
+            background-color: #509ee2;
+            width: 120px;
+            height: 70px;
+            
+        }
+    }
 }
