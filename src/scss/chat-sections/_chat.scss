@@ -13,6 +13,7 @@
         display: flex;
         align-items: flex-start;
         margin-top: 26px;
+        color: #fff;
         .chat__text {
             background-color: #509ee2;
             border-radius: 5px;
@@ -42,29 +43,41 @@
     }
     .chat__input {
         display: flex;
-        > input {
+        margin-top: 100px;
+        justify-content: space-around;
+        :first-child {
             background-color: #d5dfe6;
             border: none;
             height: 70px;
             width: 380px;
+            border-radius: 5px;
         }
         > button {
             border: none;
             border-radius: 5px;
-        }
-        .attachment {
-            background-image: url(./../../../Images/Icons/attachment.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-color: #d5dfe6;
-            border-radius: 0px 5px 5px 0px;
-            width: 50px;
-        }
-        .send {
+            text-transform: uppercase;
             background-color: #509ee2;
             width: 120px;
             height: 70px;
+        }
+        .attachment {
+            background: none;
+            border-radius: 0px 5px 5px 0px;
+            height: 71px;
+            width: 50px;
+            position: absolute;
+            left: 52%;
+            background-image: url(./../../../Images/Icons/attachment.png);
+            background-position: center;
+            background-repeat: no-repeat;
             
         }
+        // label {
+
+        //     height: 71px;
+        //     width: 50px;
+        //     position: absolute;
+        //     left: 892px;
+        // }
     }
 }

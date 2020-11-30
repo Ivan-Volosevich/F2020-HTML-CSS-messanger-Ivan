@@ -13,15 +13,31 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        .head__btn {
+            text-transform: capitalize;
+            border: none;
+            border-radius: 5px;
+            width: 128px;
+            height: 54px;
+            background-color: #509ee2;
+            color: #fff;
+            &:hover {
+                background-color: #7bb5e7;
+            }
+        }
     }
-    .head__btn {
-        
-        text-transform: capitalize;
-    }
-
     .head__account {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        color: #fff;
+        .head__account_angle {
+            border: solid #fff;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
     }
 }
