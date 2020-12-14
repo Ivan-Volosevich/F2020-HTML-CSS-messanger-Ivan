@@ -1,6 +1,7 @@
 * {
     font-family: proxima_nova;
 }
+
 .wrapper {
     min-width: 320px;
     max-width: 1440px;
@@ -10,6 +11,8 @@
 
 .wrap_height_header {
     height: 100px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .wrap_width_search {

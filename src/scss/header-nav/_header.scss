@@ -2,6 +2,9 @@
     display: flex;
     text-transform: capitalize;
     background-color: #509ee2;
+    font-size: 18px;
+    letter-spacing: 1px;
+
     .head__search {
         background-color: #d6dfe5;
         display: flex;
@@ -13,6 +16,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        
         .head__btn {
             text-transform: capitalize;
             border: none;
@@ -21,8 +25,12 @@
             height: 54px;
             background-color: #509ee2;
             color: #fff;
+            font-size: 18px;
+            letter-spacing: 1px;
+
             &:hover {
                 background-color: #7bb5e7;
+                font-weight: bold;
             }
         }
     }
@@ -31,6 +39,7 @@
         justify-content: space-around;
         align-items: center;
         color: #fff;
+
         .head__account_angle {
             border: solid #fff;
             border-width: 0 3px 3px 0;

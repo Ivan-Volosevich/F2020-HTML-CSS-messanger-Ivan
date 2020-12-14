@@ -8,3 +8,80 @@
     z-index: 214;
   }
   
+.search-text {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 10px;
+  color: #647584;
+  font-family: "Proxima Nova";
+}
+
+.logo-text {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 10px;
+  color: #55697a;
+  font-weight: bold;
+  font-family: "Proxima Nova";
+}
+
+.tools-text {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 10px;
+  color: #509ee2;
+  font-weight: bold;
+  font-family: "Proxima Nova";
+}
+
+.user-avaliable {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 10px;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+}
+.user-agung {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Proxima Nova";
+}
+
+.navtools-text {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 10px;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  .tools-text {
+    font-weight: bold;
+  }
+}
+
+.friends-time {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 10px;
+  color: #444444;
+  font-family: "Proxima Nova";
+}
+
+.friends-message {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 10px;
+  color: #aaaaaa;
+  font-family: "Proxima Nova";
+}
+
+.friends-name {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 10px;
+  color: #444444;
+  font-weight: bold;
+  font-family: "Proxima Nova";
+}

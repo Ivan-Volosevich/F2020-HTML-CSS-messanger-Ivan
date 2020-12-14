@@ -1,24 +1,31 @@
 .online {
     background-color: #f1f5f8;
+
     .online__tools {
         display: flex;
         align-items: center;
         border: 0.5px solid #d8e0e6;
     }
+
     .members {
         // :first-child {
         //     margin-top: 35px;
         // } 
+        font-size: 16px;
+        letter-spacing: 1px;
+        
         .online__member {
             display: flex;
             align-items: center;
             height: 90px;
             margin: 0 41px;
+
             .online__member_info {
                 display: flex;
                 align-items: center;
                 width: 309px;
             }
+
             .online__member_img {
                 width: 55px;
                 height: 55px;
@@ -26,12 +33,14 @@
                 border-radius: 5px;
                 margin-right: 25px;
             }
+
             .online__member_icon-on {
                 width: 11px;
                 height: 11px;
                 background-color: #509ee2;
                 border-radius: 50%;
             }
+
             .online__member_icon-off {
                 width: 11px;
                 height: 11px;

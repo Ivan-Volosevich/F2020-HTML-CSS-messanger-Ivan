@@ -1,7 +1,9 @@
 .head {
   display: flex;
   text-transform: capitalize;
-  background-color: #509ee2; }
+  background-color: #509ee2;
+  font-size: 18px;
+  letter-spacing: 1px; }
   .head .head__search {
     background-color: #d6dfe5;
     display: flex;
@@ -18,9 +20,12 @@
       width: 128px;
       height: 54px;
       background-color: #509ee2;
-      color: #fff; }
+      color: #fff;
+      font-size: 18px;
+      letter-spacing: 1px; }
       .head .head__nav .head__btn:hover {
-        background-color: #7bb5e7; }
+        background-color: #7bb5e7;
+        font-weight: bold; }
   .head .head__account {
     display: flex;
     justify-content: space-around;
@@ -46,14 +51,17 @@
     height: 50px;
     text-transform: uppercase;
     border: none;
-    border-radius: 5px; }
+    border-radius: 5px;
+    font-size: 18px; }
 
 .messages__card {
   display: flex;
   justify-content: space-around;
   align-items: center;
   border: 0.5px solid #d8e0e6;
-  height: 129px; }
+  height: 129px;
+  font-size: 16px;
+  letter-spacing: 1px; }
   .messages__card_white {
     background-color: #fff; }
 
@@ -72,9 +80,12 @@
 
 .chat .chat__chatting {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   margin-top: 26px;
-  color: #fff; }
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px; }
   .chat .chat__chatting .chat__text {
     background-color: #509ee2;
     border-radius: 5px;
@@ -87,7 +98,7 @@
 
 .chat .chat__chatting_user {
   display: flex;
-  flex-direction: row-reverse;
+  align-items: flex-end;
   margin-top: 26px; }
   .chat .chat__chatting_user .chat__text {
     background-color: #f1f5f8;
@@ -100,7 +111,9 @@
 .chat .chat__input {
   display: flex;
   margin-top: 100px;
-  justify-content: space-around; }
+  justify-content: space-around;
+  font-size: 16px;
+  letter-spacing: 1px; }
   .chat .chat__input :first-child {
     background-color: #d5dfe6;
     border: none;
@@ -120,6 +133,8 @@
     height: 71px;
     width: 50px;
     position: absolute;
+    pointer-events: none;
+    user-select: none;
     left: 52%;
     background-image: url(./../../../Images/Icons/attachment.png);
     background-position: center;
@@ -131,31 +146,34 @@
     display: flex;
     align-items: center;
     border: 0.5px solid #d8e0e6; }
-  .online .members .online__member {
-    display: flex;
-    align-items: center;
-    height: 90px;
-    margin: 0 41px; }
-    .online .members .online__member .online__member_info {
+  .online .members {
+    font-size: 16px;
+    letter-spacing: 1px; }
+    .online .members .online__member {
       display: flex;
       align-items: center;
-      width: 309px; }
-    .online .members .online__member .online__member_img {
-      width: 55px;
-      height: 55px;
-      background-color: #d8e0e7;
-      border-radius: 5px;
-      margin-right: 25px; }
-    .online .members .online__member .online__member_icon-on {
-      width: 11px;
-      height: 11px;
-      background-color: #509ee2;
-      border-radius: 50%; }
-    .online .members .online__member .online__member_icon-off {
-      width: 11px;
-      height: 11px;
-      background-color: #cad5de;
-      border-radius: 50%; }
+      height: 90px;
+      margin: 0 41px; }
+      .online .members .online__member .online__member_info {
+        display: flex;
+        align-items: center;
+        width: 309px; }
+      .online .members .online__member .online__member_img {
+        width: 55px;
+        height: 55px;
+        background-color: #d8e0e7;
+        border-radius: 5px;
+        margin-right: 25px; }
+      .online .members .online__member .online__member_icon-on {
+        width: 11px;
+        height: 11px;
+        background-color: #509ee2;
+        border-radius: 50%; }
+      .online .members .online__member .online__member_icon-off {
+        width: 11px;
+        height: 11px;
+        background-color: #cad5de;
+        border-radius: 50%; }
 
 * {
   font-family: proxima_nova; }
@@ -167,7 +185,9 @@
   margin-right: auto; }
 
 .wrap_height_header {
-  height: 100px; }
+  height: 100px;
+  font-size: 18px;
+  letter-spacing: 1px; }
 
 .wrap_width_search {
   max-width: 402px;
@@ -175,8 +195,8 @@
   background-color: #f1f5f8; }
 
 .wrap_width_chat {
-  max-width: 637px;
-  width: 637px; }
+  max-width: 636px;
+  width: 636px; }
 
 .wrap_width_user {
   max-width: 402px;

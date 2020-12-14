@@ -1,9 +1,11 @@
 .messages {   
+
     &__tools {
         display: flex;
         justify-content: space-around;
         align-items: center;
         border: 0.5px solid #d8e0e6;
+
         button {
             background-color: #509ee2;
             color: #fff;
@@ -12,19 +14,25 @@
             text-transform: uppercase;
             border: none;
             border-radius: 5px;
+            font-size: 18px;
         }
     }
+
     &__card {
         display: flex;
         justify-content: space-around;
         align-items: center;
         border: 0.5px solid #d8e0e6;
         height: 129px;
+        font-size: 16px;
+        letter-spacing: 1px;
+
         &_white {
             background-color: #fff;
         }
     }
 }
+
 .names {
     text-transform: capitalize;
     font-weight: bold;
