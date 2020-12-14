@@ -1,5 +1,5 @@
 .messages {   
-    .messages__tools {
+    &__tools {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -14,12 +14,15 @@
             border-radius: 5px;
         }
     }
-    .messages__card {
+    &__card {
         display: flex;
         justify-content: space-around;
         align-items: center;
         border: 0.5px solid #d8e0e6;
         height: 129px;
+        &_white {
+            background-color: #fff;
+        }
     }
 }
 .names {

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Messanger</title>
+  <link rel="stylesheet" href="./Fonts/Fonts.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="wrapper"></div>
+  <!-- Header (horizontal)-->
+  <header class="head wrap_height_header">
+    <div class="head__search wrap_width_search"></div>
+    <div class="head__logo"><img src="./Images/Icons/logo.png" alt="logo"><span>HiChat</span></div>
+    <div class="head__icon"><img src="./Images/Icons/search.png" alt=""><span>search</span></div>
+    <nav class="head__nav wrap_width_chat"></nav>
+    <button class="head__btn">friends</button>
+    <button class="head__btn">works</button>
+    <button class="head__btn">family</button>
+    <button class="head__btn">+ category</button>
+    <div class="head__account wrap_width_user"></div><img src="./Images/members/user.png">
+    <div>
+      <div class="head__account_name">agung</div>
+      <div class="head__account_status">avaliable</div>
+    </div>
+    <div class="head__account_angle"></div>
+  </header>
+  <div class="sections">
+    <!-- FriendsMessages (vertical)-->
+    <section class="messages wrap_width_search"></section>
+    <div class="messages__tools wrap_height_header"><span class="subhead-text">friends</span>
+      <button>new</button>
+    </div>
+    <div class="messages__card">
+      <div class="messages__card_icon"></div><img src="./Images/members/john.png">
+      <div></div>
+      <p class="names">john appleseed</p>
+      <p>Lorem ipsum dolor sit...</p>
+      <p>2 a.m</p>
+    </div>
+    <div class="messages__card messages__card_white">
+      <div class="messages__card_icon"></div><img src="./Images/members/robert.png">
+      <div></div>
+      <p class="names">robert william</p>
+      <p>Lorem ipsum dolor sit...</p>
+      <p>3 a.m</p>
+    </div>
+    <div class="messages__card">
+      <div class="messages__card_icon"></div><img src="./Images/members/alyona.png">
+      <div></div>
+      <p class="names">Alyona Kosheeva</p>
+      <p>Lorem ipsum dolor sit...</p>
+      <p>4 a.m</p>
+    </div>
+    <div class="messages__card">
+      <div class="messages__card_icon"></div><img src="./Images/members/jonathan.png">
+      <div></div>
+      <p class="names">Jonathan Leane</p>
+      <p>Lorem ipsum dolor sit...</p>
+      <p>5 a.m</p>
+    </div>
+    <div class="messages__card">
+      <div class="messages__card_icon"></div><img src="./Images/members/albert.png">
+      <div></div>
+      <p class="names">Albert Steven</p>
+      <p>Lorem ipsum dolor sit...</p>
+      <p>6 a.m</p>
+    </div>
+    <div class="messages__card">
+      <div class="messages__card_icon"></div><img src="./Images/members/bagus.png">
+      <div></div>
+      <p class="names">Bagus Fikri</p>
+      <p>Lorem ipsum dolor sit...</p>
+      <p>7 a.m</p>
+    </div>
+    <div class="messages__card">
+      <div class="messages__card_icon"></div><img src="./Images/members/diana.png">
+      <div></div>
+      <p class="names">Diana</p>
+      <p>Lorem ipsum dolor sit...</p>
+      <p>8 a.m</p>
+    </div>
+    <!-- Chat (vertical)-->
+    <section class="chat wrap_width_chat"></section>
+    <div class="chat__tools wrap_height_header"><span class="subhead-text">chat</span>
+      <div class="chat__tools_icons"></div><img src="./Images/Icons/phonecall.png" alt=""><img src="./Images/Icons/videocall.png" alt="">
+      <button>...</button>
+    </div>
+    <div class="chat__chatting"><img src="Images/members/robert.png">
+      <div class="chat__text"></div>
+      <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+      <p>2 a.m</p>
+    </div>
+    <div class="chat__chatting"><img src="Images/members/robert.png">
+      <div class="chat__text"></div>
+      <p>Nam nec tellus a odio tincidunt auctor?</p>
+      <p>2 a.m</p>
+    </div>
+    <div class="chat__chatting_user">
+      <div class="chat__text"></div>
+      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem bibendum auctor,</p>
+      <p>2 a.m <span>R</span></p>
+    </div>
+    <div class="chat__chatting"><img src="Images/members/robert.png">
+      <div class="chat__text"></div>
+      <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+      <p>2 a.m</p>
+    </div>
+    <div class="chat__chatting_user">
+      <div class="chat__text"></div>
+      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem bibendum auctor,</p>
+      <p>2 a.m <span>D</span></p>
+    </div>
+    <div class="chat__input">
+      <input type="text" placeholder="Write here...">
+      <input class="attachment" type="file">
+      <label class="attachment-icon"></label>
+      <button class="send">send</button>
+    </div>
+    <!-- OnlineUsers (vertical)-->
+    <section class="online wrap_width_user"></section>
+    <div class="online__tools wrap_height_header"><span class="subhead-text">online user</span></div>
+    <div class="members">
+      <div class="online__member"></div>
+      <div class="online__member_info">
+        <div class="online__member_img"></div>
+        <div></div>
+        <p class="names">robert william</p>
+        <p>Online</p>
+      </div>
+      <p class="online__member_icon-on"></p>
+      <div class="online__member"></div>
+      <div class="online__member_info">
+        <div class="online__member_img"></div>
+        <div></div>
+        <p class="names">Albert Steven</p>
+        <p>Online</p>
+      </div>
+      <p class="online__member_icon-on"></p>
+      <div class="online__member"></div>
+      <div class="online__member_info">
+        <div class="online__member_img"></div>
+        <div></div>
+        <p class="names">Jonathan Leane</p>
+        <p>Online</p>
+      </div>
+      <p class="online__member_icon-on"></p>
+      <div class="online__member"></div>
+      <div class="online__member_info">
+        <div class="online__member_img"></div>
+        <div></div>
+        <p class="names">Bagus Fikri</p>
+        <p>Online</p>
+      </div>
+      <p class="online__member_icon-on"></p>
+      <div class="online__member"></div>
+      <div class="online__member_info">
+        <div class="online__member_img"></div>
+        <div></div>
+        <p class="names">Alyona Kosheeva</p>
+        <p>Online</p>
+      </div>
+      <p class="online__member_icon-on"></p>
+      <div class="online__member"></div>
+      <div class="online__member_info">
+        <div class="online__member_img"></div>
+        <div></div>
+        <p class="names">Muhammad Zayn</p>
+        <p>Online</p>
+      </div>
+      <p class="online__member_icon-on"></p>
+      <div class="online__member"></div>
+      <div class="online__member_info">
+        <div class="online__member_img"></div>
+        <div></div>
+        <p class="names">Diana</p>
+        <p>Offline</p>
+      </div>
+      <p class="online__member_icon-off"></p>
+      <div class="online__member"></div>
+      <div class="online__member_info">
+        <div class="online__member_img"></div>
+        <div></div>
+        <p class="names">Abdul Razak</p>
+        <p>Offline</p>
+      </div>
+      <p class="online__member_icon-off"></p>
+      <div class="online__member"></div>
+      <div class="online__member_info">
+        <div class="online__member_img"></div>
+        <div></div>
+        <p class="names">Vino Bastian</p>
+        <p>Offline</p>
+      </div>
+      <p class="online__member_icon-off"></p>
+      <div class="online__member"></div>
+      <div class="online__member_info">
+        <div class="online__member_img"></div>
+        <div></div>
+        <p class="names">Justin</p>
+        <p>Offline</p>
+      </div>
+      <p class="online__member_icon-off"></p>
+    </div>
+  </div>
+</body>

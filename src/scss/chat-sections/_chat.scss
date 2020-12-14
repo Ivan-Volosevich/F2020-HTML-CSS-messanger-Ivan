@@ -66,6 +66,8 @@
             height: 71px;
             width: 50px;
             position: absolute;
+            pointer-events: none;
+            user-select: none;
             left: 52%;
             background-image: url(./../../../Images/Icons/attachment.png);
             background-position: center;

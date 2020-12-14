@@ -34,12 +34,12 @@
       transform: rotate(45deg);
       -webkit-transform: rotate(45deg); }
 
-.messages .messages__tools {
+.messages__tools {
   display: flex;
   justify-content: space-around;
   align-items: center;
   border: 0.5px solid #d8e0e6; }
-  .messages .messages__tools button {
+  .messages__tools button {
     background-color: #509ee2;
     color: #fff;
     width: 120px;
@@ -48,12 +48,14 @@
     border: none;
     border-radius: 5px; }
 
-.messages .messages__card {
+.messages__card {
   display: flex;
   justify-content: space-around;
   align-items: center;
   border: 0.5px solid #d8e0e6;
   height: 129px; }
+  .messages__card_white {
+    background-color: #fff; }
 
 .names {
   text-transform: capitalize;

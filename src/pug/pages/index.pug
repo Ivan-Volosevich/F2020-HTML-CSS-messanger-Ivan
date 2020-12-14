@@ -1,0 +1,203 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title Messanger
+  link(rel='stylesheet', href='./Fonts/Fonts.css')
+  link(rel='stylesheet', href='./css/styles.css')
+body
+    .wrapper
+    // Header (horizontal)
+    header.head.wrap_height_header
+        .head__search.wrap_width_search
+        .head__logo
+            img(src='./Images/Icons/logo.png', alt='logo')
+            span HiChat
+        .head__icon
+            img(src='./Images/Icons/search.png', alt='')
+            span search
+        nav.head__nav.wrap_width_chat
+        button.head__btn friends
+        button.head__btn works
+        button.head__btn family
+        button.head__btn + category
+        .head__account.wrap_width_user
+        img(src='./Images/members/user.png')
+        div
+            .head__account_name agung
+            .head__account_status avaliable
+        .head__account_angle
+    .sections
+        // FriendsMessages (vertical)
+        section.messages.wrap_width_search
+        .messages__tools.wrap_height_header
+            span.subhead-text friends
+            button new
+        .messages__card
+            .messages__card_icon
+            img(src='./Images/members/john.png')
+            div
+            p.names john appleseed
+            p Lorem ipsum dolor sit...
+            p 2 a.m
+        .messages__card.messages__card_white
+            .messages__card_icon
+            img(src='./Images/members/robert.png')
+            div
+            p.names robert william
+            p Lorem ipsum dolor sit...
+            p 3 a.m
+        .messages__card
+            .messages__card_icon
+            img(src='./Images/members/alyona.png')
+            div
+            p.names Alyona Kosheeva
+            p Lorem ipsum dolor sit...
+            p 4 a.m
+        .messages__card
+            .messages__card_icon
+            img(src='./Images/members/jonathan.png')
+            div
+            p.names Jonathan Leane
+            p Lorem ipsum dolor sit...
+            p 5 a.m
+        .messages__card
+            .messages__card_icon
+            img(src='./Images/members/albert.png')
+            div
+            p.names Albert Steven
+            p Lorem ipsum dolor sit...
+            p 6 a.m
+        .messages__card
+            .messages__card_icon
+            img(src='./Images/members/bagus.png')
+            div
+            p.names Bagus Fikri
+            p Lorem ipsum dolor sit...
+            p 7 a.m
+        .messages__card
+            .messages__card_icon
+            img(src='./Images/members/diana.png')
+            div
+            p.names Diana
+            p Lorem ipsum dolor sit...
+            p 8 a.m
+        // Chat (vertical)
+        section.chat.wrap_width_chat
+        .chat__tools.wrap_height_header
+            span.subhead-text chat
+            .chat__tools_icons
+            img(src='./Images/Icons/phonecall.png', alt='')
+            img(src='./Images/Icons/videocall.png', alt='')
+            button ...
+        .chat__chatting
+            img(src='Images/members/robert.png')
+            .chat__text
+            p
+                | Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
+            p 2 a.m
+        .chat__chatting
+            img(src='Images/members/robert.png')
+            .chat__text
+            p Nam nec tellus a odio tincidunt auctor?
+            p 2 a.m
+        .chat__chatting_user
+            .chat__text
+            p
+                | Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem bibendum auctor,
+            p
+                | 2 a.m 
+                span R
+        .chat__chatting
+            img(src='Images/members/robert.png')
+            .chat__text
+            p
+                | Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+            p 2 a.m
+        .chat__chatting_user
+            .chat__text
+            p
+                | Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem bibendum auctor,
+            p
+                | 2 a.m 
+                span D
+        .chat__input
+            input(type='text', placeholder='Write here...')
+            input.attachment(type='file')
+            label.attachment-icon
+            button.send send
+        // OnlineUsers (vertical)
+        section.online.wrap_width_user
+        .online__tools.wrap_height_header
+            span.subhead-text online user
+        .members
+            .online__member
+            .online__member_info
+                .online__member_img
+                div
+                p.names robert william
+                p Online
+            p.online__member_icon-on
+            .online__member
+            .online__member_info
+                .online__member_img
+                div
+                p.names Albert Steven
+                p Online
+            p.online__member_icon-on
+            .online__member
+            .online__member_info
+                .online__member_img
+                div
+                p.names Jonathan Leane
+                p Online
+            p.online__member_icon-on
+            .online__member
+            .online__member_info
+                .online__member_img
+                div
+                p.names Bagus Fikri
+                p Online
+            p.online__member_icon-on
+            .online__member
+            .online__member_info
+                .online__member_img
+                div
+                p.names Alyona Kosheeva
+                p Online
+            p.online__member_icon-on
+            .online__member
+            .online__member_info
+                .online__member_img
+                div
+                p.names Muhammad Zayn
+                p Online
+            p.online__member_icon-on
+            .online__member
+            .online__member_info
+                .online__member_img
+                div
+                p.names Diana
+                p Offline
+            p.online__member_icon-off
+            .online__member
+            .online__member_info
+                .online__member_img
+                div
+                p.names Abdul Razak
+                p Offline
+            p.online__member_icon-off
+            .online__member
+            .online__member_info
+                .online__member_img
+                div
+                p.names Vino Bastian
+                p Offline
+            p.online__member_icon-off
+            .online__member
+            .online__member_info
+                .online__member_img
+                div
+                p.names Justin
+                p Offline
+            p.online__member_icon-off
