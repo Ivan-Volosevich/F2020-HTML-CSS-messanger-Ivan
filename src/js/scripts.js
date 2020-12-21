@@ -3,75 +3,20 @@ document.addEventListener('DOMContentLoaded', function() {
     const container = document.querySelector('.chat__chatting'); //document.getElementsByClassName
     const sendButton = document.getElementById('send-message');
     const messageInput = document.querySelector('chat__input');
+    //const friendsListContainer = document.querySelector('.friends-list');
 
+    //const socket = io('http')
 
-    const chat1 = [
-        {
-            message: "Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.",
-            date: '',
-            id: '1',
-            owner: 'yf8i7gujgiol'
-        },
-        {
-            message: "Nam nec tellus a odio tincidunt auctor?",
-            date: '',
-            id: '2',
-            owner: 0
-        },
-        {
-            message: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem bibendum auctor,",
-            date: '',
-            id: '3',
-            owner: 'yf8i7gujgiol'
-        },
-        {
-            message: "Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.",
-            date: '',
-            id: '4',
-            owner: 0
-        },
-    
-    ];
+    let charRooms = [];
 
-    const chat2 = [
-        {
-            message: "Duis sed odio sit amet nibh vulputate cursus a ",
-            date: '',
-            id: '1',
-            owner: 'yf8i7gujgiol'
-        },
-        {
-            message: "Nam nec tellus a odio tincidunt auctor? 24534621124634636RGDHFHGD",
-            date: '',
-            id: '2',
-            owner: 0
-        },
-        {
-            message: "Proin gravida nibh em bibendum auctor,",
-            date: '',
-            id: '3',
-            owner: 'yf8i7gujgiol'
-        },
-        {
-            message: "453675 rthrhbnfgnj call ris. Morbi accumsan ipsum velit.",
-            date: '',
-            id: '4',
-            owner: 0
-        },
-    
-    ];
+    fetch('http://localhost:4000/chats')
+    .then((res) => {
+        return (res.json());
+    })
+    .then((result) => {
+     chatRooms = result;
+    })
 
-    const chatRoom = [
-
-        {
-            chat: chat1,
-            id: 'faddfdfsfag53sadg',
-        },
-        {
-            chat: chat2,
-            id: 'fujkfdfsfag53safa',
-        }
-    ]
 
     sendButton.addEventListener('click', (event) => {  //короткая записть функции
         if (messageInput.value) {  //ошибка
