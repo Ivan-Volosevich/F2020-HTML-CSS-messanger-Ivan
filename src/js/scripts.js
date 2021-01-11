@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     fetch('http://localhost:4000/chats')
     .then((res) => {
-        return (res.json());
+        return res.json();
     })
     .then((result) => {
      chatRooms = result;
@@ -32,9 +32,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     })
     
-    chat1.forEach(function(msgOptions) {
-        createMessage(msgOptions);
-    })
+    // chat1.forEach(function(msgOptions) {
+    //     createMessage(msgOptions);
+    // })
     
     function createMessage(options) {
 

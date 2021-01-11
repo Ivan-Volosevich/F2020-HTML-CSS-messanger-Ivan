@@ -1,0 +1,67 @@
+<head>
+    <style>
+        .menu {
+            position: relative;
+        }
+
+        ul {
+            background-color: cornflowerblue;
+            list-style: none;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+            margin: 0;
+        }
+
+        .drop-menu {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        a {
+            padding: 5px 55px;
+        }
+
+        .drop-menu:hover {
+            display: block;
+        }
+
+        a:hover + .drop-menu {
+            background-color: red;
+            display: block;
+        }
+
+        .drop-menu-side {
+            left: 100%;
+            top: 0;
+        }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Main</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About us</a>
+                <ul class="drop-menu">
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a>
+                        <ul class="drop-menu drop-menu-side">
+                            <li><a href="#">Link 4</a></li>
+                            <li><a href="#">Link 5</a></li>
+                            <li><a href="#">Link 6</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Catalog</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+  </body>

@@ -35,3 +35,28 @@ function max (arr) {
 
     return result;
 }
+
+
+//Узнать квадраты на полях (макс площадью)
+function ololo (x,y) {
+
+  if (x > y) {  
+    let ost = x % y;
+    if (ost !== 0) {
+      return ololo (y, ost);
+    } else {
+      return y;
+    }
+  } else {
+    let ost = y % x;
+    if (ost !== 0) {
+      return ololo (x, ost);
+    } else {
+      return x;
+    }
+  }
+}
+
+//вызов: ololo(число x, число y)
+
+
